@@ -4,3 +4,8 @@ READ AND WRITE "Alamat" WITH TEXT
 READ AND WRITE "MetodePembayaran" WITH STRING
 
 STORE "Alamat" AS TEXT WITH "Kota Tasikmalaya"
+
+STORE "NamaLengkap" AND "NomorTelepon" AND "Alamat"
+IF "Alamat" NOT EQUAL TO "Kota Tasikmalaya" 
+    DISPLAY "Alamat Tidak Terjangkau Ekspesdisi Kami"
+    RETURN "Alamat"
