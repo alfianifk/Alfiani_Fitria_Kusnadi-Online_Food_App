@@ -9,3 +9,4 @@ STORE "NamaLengkap" AND "NomorTelepon" AND "Alamat"
 IF "Alamat" NOT EQUAL TO "Kota Tasikmalaya" 
     DISPLAY "Alamat Tidak Terjangkau Ekspesdisi Kami"
     RETURN "Alamat"
+ELSE "Menu" Chosen
