@@ -5,3 +5,9 @@
  - Nama : Alfiani Fitria Kusnadi
  - Id Camp : FE2649464
  - Kelas : FE08
+
+ # Isi Repositori
+ - README.md
+ - Pseudocode.txt
+ - Flowchart.drawio
+ - Algoritma.txt
