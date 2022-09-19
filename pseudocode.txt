@@ -3,3 +3,4 @@ READ AND WRITE "NomorTelepon" WITH STRING
 READ AND WRITE "Alamat" WITH TEXT
 READ AND WRITE "MetodePembayaran" WITH STRING
 
+STORE "Alamat" AS TEXT WITH "Kota Tasikmalaya"
