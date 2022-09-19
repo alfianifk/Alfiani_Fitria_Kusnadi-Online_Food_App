@@ -1,0 +1,20 @@
+READ AND WRITE "NamaLengkap" WITH STRING
+READ AND WRITE "NomorTelepon" WITH STRING
+READ AND WRITE "Alamat" WITH TEXT
+READ AND WRITE "MetodePembayaran" WITH STRING
+
+STORE "Alamat" AS TEXT WITH "Kota Tasikmalaya"
+
+STORE "NamaLengkap" AND "NomorTelepon" AND "Alamat"
+IF "Alamat" NOT EQUAL TO "Kota Tasikmalaya" 
+    DISPLAY "Alamat Tidak Terjangkau Ekspesdisi Kami"
+    RETURN "Alamat"
+ELSE "Menu" Chosen
+
+IF "MetodePembayaran" NOT EQUAL TO "COD"
+    CONSUMER PAYS FOR FOOD AND ORDERS ARE PROCESSED AND THE ORDER IS SENT
+    DISPLAY "Pesanan Diterima"
+ELSE THE ORDER IS SENT THE CONSUMER PAYS
+    DISPLAY "Pesanan Diterima"
+
+END
