@@ -16,3 +16,5 @@ IF "MetodePembayaran" NOT EQUAL TO "COD"
     DISPLAY "Pesanan Diterima"
 ELSE THE ORDER IS SENT THE CONSUMER PAYS
     DISPLAY "Pesanan Diterima"
+
+END
